@@ -1,4 +1,29 @@
+/* sobrescribe el estilo que viene por defecto con el mapa*/
 .leaflet-container {
   width: 100vw;
   height: 100vh;
+  margin: auto;
+}
+/* estilo de de video de youtube (embeded) inserto se ve en la pagina pero no te lleva a youtube*/
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
+/* estilo general de la aplicacion web */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.leaflet-popup-content { 
+  width:auto !important; 
 }

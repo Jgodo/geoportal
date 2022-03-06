@@ -1,9 +1,10 @@
-import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
+// estilos a los componenetes de la barra de navegacion
 import styled from 'styled-components';
+import { NavLink as Link } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #243538;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -12,7 +13,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-    color: #fff;
+    color: #fefefe;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -20,13 +21,26 @@ export const NavLink = styled(Link)`
     height: 100%;
     cursor: pointer;
     &.active {
-        color: #15cdfc;
+        color: #7c898b;
+    }
+`;
+
+export const MobileIcon = styled.div`
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
     }
 `;
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: #fff;
+    color: #fefefe;
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
