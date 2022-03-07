@@ -15,4 +15,6 @@ export default function Home() {
             <img style={{objectFit: 'contain', maxWidth: '100%', height: 'auto'}} src={require('./../images/MAX_0036.JPG')} alt="home" />
         </div>
     );
+
+    
 }

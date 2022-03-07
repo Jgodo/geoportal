@@ -45,6 +45,7 @@ export default function Gallery() {
                     <ImageListItemBar
                         title={item.title}
                         subtitle={item.author}
+                        position={'top'}
                         actionIcon={
                             <IconButton
                                 sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
@@ -116,5 +117,20 @@ const youtubeData = [
         embedId: 'b5HClrjDgE8',
         title: 'Canal Cachapoal - Villa Cordillera - Machalí',
         author: 'Jacob Godoy Autel Evo 2 Pro V2'
-    }
+    },
+    {
+        embedId: 'rL7sfsgBDrc',
+        title: 'Canal Cachapoal - Vista el Valle - Canal Lucano- Machalí',
+        author: 'Jacob Godoy Autel Evo 2 Pro V2'
+    },
+    {
+        embedId: 'Vyh6R8swx6o',
+        title: 'Canal Lucano - Villa el Bosque- Villa Horizonte - Vista el Valle - Canal Cachapoal- Machalí',
+        author: 'Jacob Godoy Autel Evo 2 Pro V2'
+    },
+    {
+        embedId: 'H1xjAOo4F5o',
+        title: 'Población 12 de febrero - Quebrada el Manzano 1',
+        author: 'Jacob Godoy Autel Evo 2 Pro V2'
+    },
 ]

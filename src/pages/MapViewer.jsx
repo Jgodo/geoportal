@@ -62,7 +62,7 @@ export default function MapViewer() {
                 </LayersControl.Overlay> 
 
                 {/* cambiar las coordenadas y tamaños desplegado  */}
-                <LayersControl.Overlay name="Fotos" checked>
+                <LayersControl.Overlay name="Registro Visual Microbasurales" checked>
                     <ImagePopUp />
                 </LayersControl.Overlay>  
             </LayersControl>
