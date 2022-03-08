@@ -20,17 +20,17 @@ export default function NavBar({ toggle }) {
             </MobileIcon>
             {/*cada uno de los textos de la barra de navegacion, el link va a la ruta definida del app.js, en español porque es lo que se mostrará en la pag. */}
             <NavMenu>
-                <NavLink to="/map-viewer" activeStyle>
+                <NavLink to="/visor" activeStyle>
                     Visor
                 </NavLink>
-                <NavLink to="/gallery" activeStyle>
+                <NavLink to="/galeria" activeStyle>
                     Galería
                 </NavLink>
-                <NavLink to="/download" activeStyle>
+                <NavLink to="/descargas" activeStyle>
                     Descargas
                 </NavLink>
-                <NavLink to="/survey" activeStyle>
-                    Encuesta
+                <NavLink to="/contactanos" activeStyle>
+                    Contáctanos
                 </NavLink>
             </NavMenu>
         </Nav>

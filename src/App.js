@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// importamos la pagina, home,mapviewer, download, survey, gallery
+// importamos la pagina, home,mapviewer, download, contactus, gallery
 import Home from './pages/Home';
 import MapViewer from './pages/MapViewer';
 import Download from './pages/Download';
-import Survey from './pages/Survey';
+import ContactUs from './pages/ContactUs';
 import Gallery from './pages/Gallery';
 
 // importamos la barra de navegacion (Navbar y sidebar), footer (parte de abajo)
@@ -31,10 +31,10 @@ function App() {
             <Routes>
               {/* estas son las rutas de la pagina web */}
                 <Route path="/" element={<Home />} />
-                <Route path="/map-viewer" element={<MapViewer />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/download" element={<Download />} />
-                <Route path="/survey" element={<Survey />} />
+                <Route path="/visor" element={<MapViewer />} />
+                <Route path="/galeria" element={<Gallery />} />
+                <Route path="/descargas" element={<Download />} />
+                <Route path="/contactanos" element={<ContactUs />} />
             </Routes>
             <Footer />
         </BrowserRouter>

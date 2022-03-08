@@ -17,17 +17,17 @@ export default function SideBar({ isOpen, toggle }) {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink to="/map-viewer" onClick={toggle}>
+                    <SideBarLink to="/visor" onClick={toggle}>
                         Visor
                     </SideBarLink>
-                    <SideBarLink to="/gallery" onClick={toggle}>
-                        Gallery
+                    <SideBarLink to="/galeria" onClick={toggle}>
+                        Galería
                     </SideBarLink>
-                    <SideBarLink to="/download" onClick={toggle}>
-                        Download
+                    <SideBarLink to="/descargas" onClick={toggle}>
+                        Descargas
                     </SideBarLink>
-                    <SideBarLink to="/survey" onClick={toggle}>
-                        Survey
+                    <SideBarLink to="/contactanos" onClick={toggle}>
+                        Contáctanos
                     </SideBarLink>
                 </SideBarMenu>
             </SideBarWrapper>

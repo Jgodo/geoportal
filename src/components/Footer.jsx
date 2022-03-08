@@ -28,14 +28,14 @@ export default function Footer() {
                         </WebSiteRights>
                         <SocialIcons>
                             <SocialIconLink
-                                href="/"
+                                href="https://github.com/Jgodo/geoportal"
                                 target="_blank"
                                 aria-label="Github"
                             >
                                 <FaGithub />
                             </SocialIconLink>
                             <SocialIconLink
-                                href="/"
+                                href="https://www.youtube.com/channel/UCxYORYtfNGr5kY8CDztOoEQ"
                                 target="_blank"
                                 aria-label="Youtube"
                             >
