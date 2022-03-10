@@ -29,23 +29,26 @@ export default function Home() {
                         color: 'white',
                         top: '25%',
                         left: '2%',
-                        fontSize: '3rem',
+                        fontSize: '2rem',
                         backgroundColor: 'rgba(52, 52, 52, 0.8)',
                         padding: '1rem',
                     }}
                 >
-                    <p>fdggfdgdfgfdgfdgdfgdfgdfgdfgfdggfdgfgdTEXT</p>
-                    <p>TgfdgdfggdfgdfgfdfgdfgfdgfdgdfgdfgdffgdfXT</p>
-                    <p>TEXgdfgdfgdfgdfgdfgdfgdfgdfgdfdfgdgdfgdfgdT</p>
-                    <p>TEgdfgdfgfdgdfgdfgdfgdfgdfgdfgfdgdfgdfgdfgdXT</p>   
+                    <p>GEOPORTAL MACHALÍ:</p>
+                    <p>Bienvenidos al proyecto de tesis de geoportal para</p>
+                    <p>la comuna de Machalí, en el podrás encontrar algunas</p>
+                    <p>herramientas que te ayudarán a entender las problemáticas </p>
+                    <p>asociadas al territorio, entre ellas la ubicación de</p>
+                    <p>microbasurales dentro de la zona urbana de la comuna.</p>
+                       
                     
                 </div>
                 <img
                     src={require('./../images/logo.jpeg')}
                     alt="Logo"
                     loading="lazy"
-                    height="80%"
-                    width="80%"
+                    height="40%"
+                    width="24%"
                     style={{
                         position: 'absolute',
                         top: '15%',

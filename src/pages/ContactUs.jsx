@@ -1,33 +1,66 @@
 import React from 'react';
 
-const styleContactUs = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '90vh',
-};
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 
-export default function ContactUs() {
+export default function Survey() {
     return (
-
- 
-        <div>
-            <img
-                src={require('./../images/logo.jpeg')}
-                alt="Logo"
-                loading="lazy"
-                height="50%"
-                width="50%"
+        <Box
+            component="form"
+            sx={{
+                '& .MuiTextField-root': {
+                    m: 1,
+                    width: '30%',
+                },
+            }}
+            noValidate
+            autoComplete="off"
+        >
+            <div
                 style={{
-                    position: 'absolute',
-                    top: '15%',
-                    left:'15%',
-                    padding: '1rem',
+                    display: 'flex',
+                    justifyContent: 'right',
+                    marginRight: '5%',
+                    marginTop: '5%',
                 }}
-            />
-
-            
-        </div> 
+            >
+                <TextField
+                    id="filled-helperText"
+                    label="Nombre"
+                    helperText="*Necesario"
+                    variant="filled"
+                />
+            </div>
+            <div
+                style={{
+                    display: 'flex',
+                    justifyContent: 'right',
+                    marginRight: '5%',
+                }}
+            >
+                <TextField
+                    id="filled-helperText"
+                    label="Correo"
+                    helperText="*Debe ser un correo válido"
+                    variant="filled"
+                />
+            </div>
+            <div
+                style={{
+                    display: 'flex',
+                    justifyContent: 'right',
+                    marginRight: '5%',
+                }}
+            >
+                <TextField
+                    id="filled-multiline-static"
+                    label="Mensaje"
+                    multiline
+                    rows={4}
+                    variant="filled"
+                    helperText="*Necesario"
+                />
+            </div>
+        </Box>
     );
-
 }

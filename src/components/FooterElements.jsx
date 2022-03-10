@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const FooterContainer = styled.footer`
     background-color: #101522;
     bottom: 0;
-    position: fixed;
+    position: absoluted;
     width: 100%;
 `;
 
@@ -15,7 +15,7 @@ export const FooterWrap = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 `;
 
