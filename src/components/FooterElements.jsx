@@ -50,6 +50,7 @@ export const SocialLogo = styled(Link)`
 export const WebSiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
+    font-size: 0.9rem;
 `;
 
 export const SocialIcons = styled.div`

@@ -19,24 +19,14 @@ const Demo = styled('div')(({ theme }) => ({
 // agregar url de archivos ahora que esta en local, luego al subirlo hay que cambiarlos//
 const files = [
     {
-        url: 'http://localhost:3000/esterosycanales.kmz',
+        url: `${process.env.React_App_URL}/esterosycanales.kmz`,
         name: 'esterosycanales.kmz',
         title: 'Esteros y Canales Machalí',
     },
     {
-        url: 'http://localhost:3000/machalioctubre2019.dwg',
-        name: 'machalioctubre2019.dwg',
-        title: 'PRC Machalí',
-    },
-    {
-        url: 'http://localhost:3000/poblaciones.kmz',
-        name: 'poblaciones.kmz',
-        title: 'Poblaciones Machalí',
-    },
-    {
-        url: 'http://localhost:3000/zonaurbana.kmz',
-        name: 'zonaurbana.kmz',
-        title: 'Zona Urbana Delimitada',
+        url: `${process.env.React_App_URL}/OrdenanzaGestionMedioambientalMachali.pdf`,
+        name: 'OrdenanzaGestionMedioambientalMachali.pdf',
+        title: 'Ordenanza Gestión Medioambiental Comuna de Machalí',
     },
 ];
 
@@ -52,12 +42,13 @@ export default function Download() {
                 variant="h5"
                 component="div"
             >
-                Descargar archivos
+                Descargar archivos usar google earth pro para visualizar
             </Typography>
             <Demo>
                 <List dense={false}>
                     {files.map((file) => (
                         <ListItem
+                            key={file.name}
                             secondaryAction={
                                 <IconButton
                                     edge="end"

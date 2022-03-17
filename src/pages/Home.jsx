@@ -2,13 +2,6 @@
 import React from 'react';
 import { Card, CardMedia } from '@mui/material';
 
-const styleHome = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    background: '#F4F3F0',
-};
-
 // por completar
     
 export default function Home() {
@@ -18,7 +11,7 @@ export default function Home() {
                 <CardMedia
                     style={{objectFit: 'contain', maxWidth: '100%', maxHeight: '100%',display: 'flex'}}
                     component="img"
-                    image={require('./../images/MAX_0036.JPG')}
+                    image={require('./../images/machali.JPG')}
                     title="Home"
                     alt="HOME"
                 />
@@ -27,19 +20,19 @@ export default function Home() {
                     style={{
                         position: 'absolute',
                         color: 'white',
-                        top: '25%',
+                        top: '48%',
                         left: '2%',
-                        fontSize: '2rem',
                         backgroundColor: 'rgba(52, 52, 52, 0.8)',
                         padding: '1rem',
                     }}
                 >
-                    <p>GEOPORTAL MACHALÍ:</p>
-                    <p>Bienvenidos al proyecto de tesis de geoportal para</p>
-                    <p>la comuna de Machalí, en el podrás encontrar algunas</p>
-                    <p>herramientas que te ayudarán a entender las problemáticas </p>
-                    <p>asociadas al territorio, entre ellas la ubicación de</p>
-                    <p>microbasurales dentro de la zona urbana de la comuna.</p>
+                    
+                    <p style={{ fontSize: '1.8vw',}}>GEOPORTAL MACHALÍ:</p>
+                    <p style={{ fontSize: '1.8vw',}}>Bienvenidos al proyecto de tesis de geoportal para</p>
+                    <p style={{ fontSize: '1.8vw',}}>la comuna de Machalí. En él podrás encontrar algunas</p>
+                    <p style={{ fontSize: '1.8vw',}}>herramientas que te ayudarán a entender las problemáticas </p>
+                    <p style={{ fontSize: '1.8vw',}}>asociadas al territorio, entre ellas la ubicación de</p>
+                    <p style={{ fontSize: '1.8vw',}}>microbasurales dentro de la zona urbana de la comuna.</p>
                        
                     
                 </div>
@@ -47,13 +40,14 @@ export default function Home() {
                     src={require('./../images/logo.jpeg')}
                     alt="Logo"
                     loading="lazy"
-                    height="40%"
-                    width="24%"
+                    height="34%"
+                    width="15%"
                     style={{
                         position: 'absolute',
-                        top: '15%',
-                        left:'65%',
+                        top: '11%',
+                        left:'15%',
                         padding: '1rem',
+                        display: 'flex',
                     }}
                 />
             </div>

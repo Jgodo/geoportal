@@ -85,7 +85,7 @@ const photos = [
 ];
 
 const markers = photos.map((photo) => (
-    <Marker position={photo.coordinates} icon={mapIcon}>
+    <Marker position={photo.coordinates} icon={mapIcon} key={photo.coordinates[0]}>
         <PopupLeaftlet>
             <div>
                 <img src={photo.src} height="600rem" width="auto" alt="map" />

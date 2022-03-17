@@ -12,7 +12,7 @@ import {
 } from './FooterElements';
 
 // importar los iconos de youtube y Github//
-import { FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 //mensaje parte baja//
 export default function Footer() {
@@ -33,13 +33,6 @@ export default function Footer() {
                                 aria-label="Github"
                             >
                                 <FaGithub />
-                            </SocialIconLink>
-                            <SocialIconLink
-                                href="https://www.youtube.com/channel/UCxYORYtfNGr5kY8CDztOoEQ"
-                                target="_blank"
-                                aria-label="Youtube"
-                            >
-                                <FaYoutube />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

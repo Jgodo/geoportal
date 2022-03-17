@@ -17,6 +17,9 @@ export default function SideBar({ isOpen, toggle }) {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
+                    <SideBarLink to="/" onClick={toggle}>
+                        Inicio
+                    </SideBarLink>
                     <SideBarLink to="/visor" onClick={toggle}>
                         Visor
                     </SideBarLink>
