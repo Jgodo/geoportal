@@ -20,9 +20,6 @@ export default function NavBar({ toggle }) {
                 <NavLink to="/galeria">
                     Galería
                 </NavLink>
-                <NavLink to="/descargas">
-                    Descargas
-                </NavLink>
                 <NavLink to="/contactanos">
                     Contáctanos
                 </NavLink>

@@ -26,9 +26,6 @@ export default function SideBar({ isOpen, toggle }) {
                     <SideBarLink to="/galeria" onClick={toggle}>
                         Galería
                     </SideBarLink>
-                    <SideBarLink to="/descargas" onClick={toggle}>
-                        Descargas
-                    </SideBarLink>
                     <SideBarLink to="/contactanos" onClick={toggle}>
                         Contáctanos
                     </SideBarLink>

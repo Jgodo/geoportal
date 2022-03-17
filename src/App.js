@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // importamos la pagina, home,mapviewer, download, contactus, gallery
 import Home from './pages/Home';
 import MapViewer from './pages/MapViewer';
-import Download from './pages/Download';
 import ContactUs from './pages/ContactUs';
 import Gallery from './pages/Gallery';
 
@@ -33,7 +32,6 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/visor" element={<MapViewer />} />
                 <Route path="/galeria" element={<Gallery />} />
-                <Route path="/descargas" element={<Download />} />
                 <Route path="/contactanos" element={<ContactUs />} />
             </Routes>
             <Footer />
