@@ -27,13 +27,12 @@ export default function Home() {
                     }}
                 >
                     
-                    <p style={{ fontSize: '1.8vw',}}>GEOPORTAL MACHALÍ:</p>
-                    <p style={{ fontSize: '1.8vw',}}>Bienvenidos al proyecto de tesis de geoportal para</p>
-                    <p style={{ fontSize: '1.8vw',}}>la comuna de Machalí. En él podrás encontrar algunas</p>
-                    <p style={{ fontSize: '1.8vw',}}>herramientas que te ayudarán a entender las problemáticas </p>
-                    <p style={{ fontSize: '1.8vw',}}>asociadas al territorio, entre ellas la ubicación de</p>
-                    <p style={{ fontSize: '1.8vw',}}>microbasurales dentro de la zona urbana de la comuna.</p>
-                       
+                    <p style={{ fontSize: '1.8vw',}}>GEOPORTAL DE LA COMUNA MACHALÍ:</p>
+                    <p style={{ fontSize: '1.8vw',}}>La información geográfica dispuesta en este geoportal es de carácter referencial,</p>
+                    <p style={{ fontSize: '1.8vw',}}>se presenta con el objetivo es visibilizar la problemática de los microbasurales</p>
+                    <p style={{ fontSize: '1.8vw',}}>en la Comuna de Machalí que afectan a la población y contaminan esteros y canales. </p>
+                    <p style={{ fontSize: '1vw',}}>Geoportal desarrollado en el marco de la tesis para optar al título de geógrafo de Jacob Israel Godoy Pérez.</p>
+                    <p style={{ fontSize: '1vw',}}>Dpto. de Geografía, Facultad de Arquitectura Urbanismo y Geografía, Universidad de Concepción. </p>  
                     
                 </div>
                 <img
