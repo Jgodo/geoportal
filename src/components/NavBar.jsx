@@ -15,7 +15,7 @@ export default function NavBar({ toggle }) {
                     Inicio
                 </NavLink>
                 <NavLink to="/visor">
-                    Visor
+                    Visualizador de Mapa
                 </NavLink>
                 <NavLink to="/galeria">
                     Galería
